@@ -10,6 +10,11 @@ path = 'contracts/job-scheduler.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.performance-tracker]
+path = 'contracts/performance-tracker.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.quantum-marketplace]
 path = 'contracts/quantum-marketplace.clar'
 clarity_version = 2
