@@ -50,14 +50,19 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
+            contract-name: quantum-time-token
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/quantum-time-token.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: job-scheduler
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/job-scheduler.clar
             clarity-version: 2
         - emulated-contract-publish:
-            contract-name: quantum-time-token
+            contract-name: performance-tracker
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-            path: contracts/quantum-time-token.clar
+            path: contracts/performance-tracker.clar
             clarity-version: 2
         - emulated-contract-publish:
             contract-name: quantum-marketplace
